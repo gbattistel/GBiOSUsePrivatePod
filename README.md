@@ -79,7 +79,7 @@ pod install
 # Troubleshooting
 Due that we are using private repositories we could run into authentication errors. If that's the case:
 1) Check the defined repo url in your .podspec file (spec.source)
-2) To validate the spec.source, just copy the url and try to clone it. If you are able to clone that repo, that means that your Github setup is ok. 
+2) To validate the spec.source, just copy the url and try to clone it. If you are able to clone that repo, it means that your Github setup is ok. 
 3) If you have problems cloning the repo, just setup an SSH key: https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent
 
 
